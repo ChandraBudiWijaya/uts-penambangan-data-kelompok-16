@@ -1,0 +1,29 @@
+# ============================================================
+# Requirements untuk Proyek Feature Selection - Prediksi Stok Obat
+# ============================================================
+# Proyek UTS Penambangan Data - Kelompok 16
+# Data: Pembelian dan Stok Apotek
+
+# Data Manipulation & Processing
+pandas              # Library untuk manipulasi data tabular (DataFrame)
+                    # Digunakan untuk membaca, membersihkan, dan mengagregasi data
+
+numpy               # Library untuk operasi numerik dan array
+                    # Digunakan untuk perhitungan matematis dan data transformation
+
+# Machine Learning & Feature Selection
+scikit-learn        # Library machine learning dengan berbagai algoritma
+                    # RandomForestRegressor - untuk feature importance analysis
+                    # mutual_info_regression - untuk menghitung mutual information
+                    # train_test_split - untuk membagi data training/testing
+
+# Data Visualization
+matplotlib          # Library untuk membuat visualisasi grafik dasar
+                    # Digunakan untuk plot bar chart, histogram, dan scatter plot
+
+seaborn             # Library visualisasi statistik berbasis matplotlib
+                    # Digunakan untuk heatmap korelasi dan visualisasi yang lebih menarik
+
+# Jupyter Notebook
+jupyter             # Interactive notebook environment
+                    # Untuk menjalankan feature-selection.ipynb dan eksperimen interaktif
